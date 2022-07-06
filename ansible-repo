@@ -1,0 +1,3 @@
+n1 ansible_host=172.31.48.11 user_name=centos ansible_ssh_private_key_file=/home/centos/nv.pem
+n2 ansible_host=172.31.48.12 user_name=centos ansible_ssh_private_key_file=/home/centos/nv.pem
+
