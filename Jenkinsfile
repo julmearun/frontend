@@ -1,25 +1,20 @@
 pipeline {
-    agent 
-
-     stages {
-
-          stage ('build') {
-
-             steps {
-                sh 'mvn build'
-             }
-          }
-          stage ('test') {
-
-             steps {
-                sh 'mvn test'
-             }
-          }
-          stage ('deploy') {
-
-             steps {
-                sh 'mvn deploy'
-             }
-          }
-     }
+    agent any 
+    stages {
+        stage('Build') { 
+            steps {
+                // 
+            }
+        }
+        stage('Test') { 
+            steps {
+                // 
+            }
+        }
+        stage('Deploy') { 
+            steps {
+                // 
+            }
+        }
+    }
 }
