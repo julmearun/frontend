@@ -1,5 +1,5 @@
 pipeline {
-    agent {lables 'master'}
+    agent 
 
      stages {
 
